@@ -1,0 +1,148 @@
+thread 
+<<<<1/6>>>>
+To master Javascript you have to understand objects as everything in JS is object.
+Below topics will help you understand basics of Objects.
+
+1 Introduction to objects 
+2 Creating objects 
+3 Accessing data in objects 
+4 Modification of objects 
+5 Nesting array and objects
+
+That's all for this thread, this thread included the basic concepts of functions in javascript . I will be coming up with more advance javascript , till then do follow me for more content and if you have any queries drop them below
+
+<<<<<2/6>>>>>
+
+->JavaScript object is a non-primitive data-type that allows you to store multiple collections of data.
+
+-> An object is a JavaScript data type, just as a number or a string is also a data type. As a data type, an object can be contained in a variable.
+
+There are two ways to construct an object in JavaScript:
+
+1.The object literal, which uses curly brackets: {}
+2.The object constructor, which uses the new keyword
+
+<<Code Image >>>
+
+<<<<3/6>>>
+
+Properties and Methods
+--> Objects can have properties and methods.
+
+--> A property is the association between a name (key) and value within an object, and it can contain any datatype. A property generally refers to the characteristic of an object.
+
+--> A method is a function that is the value of an object property, and therefore a task that an object can perform.
+There are two ways to access an object’s properties.
+
+1. Dot notation: .
+2. Bracket notation: []
+
+const gimli = {
+	name: "Gimli",
+	race: "dwarf",
+	weapon: "axe",
+	greet: function() {
+		return `Hi, my name is ${this.name}!`;
+	},
+};
+
+<<<<<4/6>>>>>
+Adding and Modifying Object Properties
+In order to add a new property to an object, you would assign a new value to a property with the assignment operator (=).
+
+For example, we can add a numerical data type to the gimli object as the new age property. Both the dot and bracket notation can be used to add a new object property.
+
+// Add new age property to gimli
+gimli.age = 139;
+// Add new age property to gimli
+gimli["age"] = 139;
+We can access that value just as above, with either the dot notation or the bracket notation.
+
+gimli.age;
+Output
+139
+
+A method can also be added to the object by using the same process.
+
+// Add new fight method to gimli
+gimli.fight = function() {
+	return `Gimli attacks with an ${this.weapon}.`;
+}
+Once we have created this new object method, we can call it as we did above.
+
+gimli.fight();
+Output
+"Gimli attacks with an axe."
+Using the same method, an object’s property can be modified by assigning a new value to an existing property.
+
+// Update weapon from axe to battle axe
+gimli.weapon = "battle axe";
+At this point, if we call the object, we will see all of our additions and modifications.
+
+gimli;
+Output
+{name: "Gimli", race: "dwarf", weapon: "battle axe", age: 139, greet: ƒ, fight: ƒ}
+
+<<<<5/6>>>>
+
+Removing Object Properties
+In order to remove a property from an object, you will utilize the delete keyword. delete is an operator that removes a property from an object.
+
+In the below example, we will remove the weapon property from gimli using delete.
+
+// Remove weapon from gimli
+delete gimli.weapon;
+Output
+true
+
+<<<<<<6/7>>>>>>>
+
+Looping Through Object Properties
+JavaScript has a built-in type of for loop that is specifically meant for iterating over the properties of an object. This is known as the for...in loop.
+
+Here is a simplified version of our main object example, gimli.
+
+const gimli = {
+	name: "Gimli",
+	race: "dwarf",
+	weapon: "battle axe",
+};
+We can use for...in to traverse through all the properties of gimli and print them to the console. Using bracket notation, we can retrieve the property value as a variable, in this case key.
+
+// Iterate through properties of gimli
+for (let key in gimli) {
+  console.log(gimli[key]);
+}
+Output
+Gimli
+dwarf
+battle axe
+
+
+6/6 
+
+Last thread Examples
+
+Example 1
+That's all for this thread, this thread included the basic concepts of functions in javascript . I will be coming up with more advance javascript , till then do follow me for more content and if you have any queries drop them below
+\Example 2
+
+That's a wrap! If You liked this thread. 1. Follow 
+@Div_pradeep
+for more such content around web development, resources, tips, and cheatsheet. 2. RT the first tweet to share it with other people. I appreciate it! Thanks for reading.
+
+Example 3 
+That's a wrap! Thank you for reading! I tweet about dev-related productivity tips and resources, create discussions and make articles on career growth. If you found this thread useful make sure to follow me (
+@madzadev
+) and RT this thread. Thanks!   
+
+Example 4 : 
+
+That's a wrap! If you enjoyed this thread: 1. Follow me 
+@sleeplessyogi
+for more of these 2. RT the tweet below to share this thread with your audience
+
+Example 5 
+
+That's all for this thread, this thread included the basic concepts of functions in javascript . 
+I will be coming up with more advance javascript , till then do follow me for more content and if you have any queries drop them below.
