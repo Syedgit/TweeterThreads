@@ -10,6 +10,7 @@ Below topics will help you understand basics of Objects that is minimium needed 
 4 Modification of objects 
 5 Object Methods
 
+ Understanding these well definitely increases your ability to code well. 
 
 <<<<<2>>>>>
 
