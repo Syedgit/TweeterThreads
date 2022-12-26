@@ -1,5 +1,5 @@
 thread 
-<<<<1/6>>>>
+<<<<1>>>
 To master Javascript you have to understand objects as everything in JS is object.
 Below topics will help you understand basics of Objects.
 
@@ -11,7 +11,7 @@ Below topics will help you understand basics of Objects.
 
 That's all for this thread, this thread included the basic concepts of functions in javascript . I will be coming up with more advance javascript , till then do follow me for more content and if you have any queries drop them below
 
-<<<<<2/6>>>>>
+<<<<<2>>>>>
 
 ->JavaScript object is a non-primitive data-type that allows you to store multiple collections of data.
 
@@ -24,7 +24,7 @@ There are two ways to construct an object in JavaScript:
 
 <<Code Image >>>
 
-<<<<3/6>>>
+<<<<3>>>
 
 Properties and Methods
 --> Objects can have properties and methods.
@@ -46,7 +46,7 @@ const gimli = {
 	},
 };
 
-<<<<<4/6>>>>>
+<<<<<4>>>>>
 Adding and Modifying Object Properties
 In order to add a new property to an object, you would assign a new value to a property with the assignment operator (=).
 
@@ -83,7 +83,7 @@ gimli;
 Output
 {name: "Gimli", race: "dwarf", weapon: "battle axe", age: 139, greet: ƒ, fight: ƒ}
 
-<<<<5/6>>>>
+<<<<5>>>>
 
 Removing Object Properties
 In order to remove a property from an object, you will utilize the delete keyword. delete is an operator that removes a property from an object.
@@ -95,7 +95,7 @@ delete gimli.weapon;
 Output
 true
 
-<<<<<<6/7>>>>>>>
+<<<<<<6>>>>>>>
 
 Looping Through Object Properties
 JavaScript has a built-in type of for loop that is specifically meant for iterating over the properties of an object. This is known as the for...in loop.
@@ -118,8 +118,78 @@ Gimli
 dwarf
 battle axe
 
+<<<<<<7>>>>>
 
-6/6 
+Object Keys
+There are some cool methods available in Object that helps us with looping 
+
+The Object.keys() method returns an array of a given object's own enumerable string-keyed property names.
+const object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+
+console.log(Object.keys(object1));
+// expected output: Array ["a", "b", "c"]
+
+<<<<8>>>>>>
+Object Values()
+The Object.values() method returns an array of a given object's own enumerable string-keyed property values.
+
+const object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+
+console.log(Object.values(object1));
+// expected output: Array ["somestring", 42, false]
+
+
+<<<<<9>>>>
+
+Object.entries()
+The Object.entries() method returns an array of a given object's own enumerable string-keyed property key-value pairs.
+
+const object1 = {
+  a: 'somestring',
+  b: 42
+};
+
+for (const [key, value] of Object.entries(object1)) {
+  console.log(`${key}: ${value}`);
+}
+
+// expected output:
+// "a: somestring"
+// "b: 42"
+
+
+<<<<<<<10>>>>>>
+
+Object.assign()
+The Object.assign() method copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object.
+
+<<Code_Image>>>>
+
+<<<<<<11>>>>>>
+
+Object.prototype.hasOwnProperty()
+The hasOwnProperty() method returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it).
+
+const object1 = {};
+object1.property1 = 42;
+
+console.log(object1.hasOwnProperty('property1'));
+// expected output: true
+
+console.log(object1.hasOwnProperty('toString'));
+// expected output: false
+
+console.log(object1.hasOwnProperty('hasOwnProperty'));
+// expected output: false
+
 
 Last thread Examples
 
