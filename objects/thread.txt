@@ -120,7 +120,7 @@ dwarf
 battle axe
 
 <<<<<<7>>>>>
-
+Object Methods 1/5
 Object Keys
 There are some cool methods available in Object that helps us with looping 
 
@@ -134,7 +134,8 @@ const object1 = {
 console.log(Object.keys(object1));
 // expected output: Array ["a", "b", "c"]
 
-<<<<8>>>>>>
+<<<<7>>>>>>
+Object Methods 2/5
 Object Values()
 The Object.values() method returns an array of a given object's own enumerable string-keyed property values.
 
@@ -148,8 +149,8 @@ console.log(Object.values(object1));
 // expected output: Array ["somestring", 42, false]
 
 
-<<<<<9>>>>
-
+<<<<<7>>>>
+Object Methods 3/5
 Object.entries()
 The Object.entries() method returns an array of a given object's own enumerable string-keyed property key-value pairs.
 
@@ -167,15 +168,15 @@ for (const [key, value] of Object.entries(object1)) {
 // "b: 42"
 
 
-<<<<<<<10>>>>>>
-
+<<<<<<<7>>>>>>
+Object Methods 4/5
 Object.assign()
 The Object.assign() method copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object.
 
 <<Code_Image>>>>
 
-<<<<<<11>>>>>>
-
+<<<<<<7>>>>>>
+Object Methods 5/5
 Object.prototype.hasOwnProperty()
 The hasOwnProperty() method returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it).
 

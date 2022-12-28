@@ -525,6 +525,8 @@ function multiply(multiplier, ...theArgs) {
 const arr = multiply(2, 1, 2, 3);
 console.log(arr); // [2, 4, 6]
 Copy to Clipboard
+
+
 Arrow functions
 An arrow function expression (also called a fat arrow to distinguish from a hypothetical -> syntax in future JavaScript) has a shorter syntax compared to function expressions and does not have its own this, arguments, super, or new.target. Arrow functions are always anonymous.
 
