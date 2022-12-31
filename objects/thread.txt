@@ -192,8 +192,20 @@ console.log(object1.hasOwnProperty('toString'));
 console.log(object1.hasOwnProperty('hasOwnProperty'));
 // expected output: false
 
+<<<FinalThread>>>>>
+That's a wrap! If you enjoyed this thread: 
+1. Follow me @Aftabhuss for more threads like these.
+2. RT the tweet below to share this thread with your audience
 
-Last thread Examples
+{{{{Link to first thread}}}}
+
+<<<<<<END>>>>>>>>>>>
+
+Example 5 
+
+That's all for this thread, this thread included the basic concepts of functions in javascript . 
+I will be coming up with more advance javascript , till then do follow me for more content and if you have any queries drop them below.
+
 
 Example 1
 That's all for this thread, this thread included the basic concepts of functions in javascript . I will be coming up with more advance javascript , till then do follow me for more content and if you have any queries drop them below
@@ -209,12 +221,3 @@ That's a wrap! Thank you for reading! I tweet about dev-related productivity tip
 ) and RT this thread. Thanks!   
 
 Example 4 : 
-
-That's a wrap! If you enjoyed this thread: 1. Follow me 
-@sleeplessyogi
-for more of these 2. RT the tweet below to share this thread with your audience
-
-Example 5 
-
-That's all for this thread, this thread included the basic concepts of functions in javascript . 
-I will be coming up with more advance javascript , till then do follow me for more content and if you have any queries drop them below.
