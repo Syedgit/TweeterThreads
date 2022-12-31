@@ -14,9 +14,9 @@ Below topics will help you understand basics of Objects that is minimium needed 
 
 <<<<<2>>>>>
 
-->JavaScript object is a non-primitive data-type that allows you to store multiple collections of data.
+JavaScript object is a non-primitive data-type that allows you to store multiple collections of data.
 
--> An object is a JavaScript data type, just as a number or a string is also a data type. As a data type, an object can be contained in a variable.
+ An object is a JavaScript data type, just as a number or a string is also a data type. As a data type, an object can be contained in a variable.
 
 There are two ways to construct an object in JavaScript:
 
@@ -194,7 +194,7 @@ console.log(object1.hasOwnProperty('hasOwnProperty'));
 
 <<<FinalThread>>>>>
 That's a wrap! If you enjoyed this thread: 
-1. Follow me @Aftabhuss for more threads like these.
+1. Follow me @Aftabhuss if you are interested to see more threads on JavaScript.
 2. RT the tweet below to share this thread with your audience
 
 {{{{Link to first thread}}}}
