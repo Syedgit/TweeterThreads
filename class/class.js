@@ -26,7 +26,7 @@ class Person {
 }
 
 // creating an object
-const person1 = new Person('John');
+const person10 = new Person('John');
 const person2 = new Person('Jack');
 
 console.log(person1.name); // John
@@ -49,13 +49,13 @@ class Person {
     }
 }
 
-let person10 = new Person('John');
+let person11 = new Person('John');
 
 // accessing property
-console.log(person10.name); // John
+console.log(person11.name); // John
 
 // accessing method
-person10.greet(); // Hello John
+person111.greet(); // Hello John
 
 
 //<<<<<FOUR>>>>>>//
@@ -76,17 +76,17 @@ class Person {
     }
 }
 
-let person1 = new Person('Jack');
+let person19 = new Person('Jack');
 console.log(person1.name); // Jack
 
 // changing the value of name property
 person1.personName = 'Sarah';
-console.log(person1.name); // Sarah
+console.log(person19.name); // Sarah
 
 //<<<<<<FIVE>>>>//////
 
 // accessing class
-const p = new Person(); // ReferenceError
+const person1 = new Person(); // ReferenceError
 
 // defining class
 class Person {
@@ -127,10 +127,10 @@ class Student extends Person {
 }
 
 let student = new Student('Jack');
-student1.greet();
+student.greet();
 
-Output
-Hello Jack
+//Output
+// Hello Jack
 
 //<<<<<<EIGHT>>>>//
 
