@@ -12,6 +12,7 @@ Below topics will help you understand basics of Objects that is minimium needed 
 
  Understanding these well definitely increases your ability to code well. 
 
+Thread 👇
 <<<<<2>>>>>
 
 JavaScript object is a non-primitive data-type that allows you to store multiple collections of data.

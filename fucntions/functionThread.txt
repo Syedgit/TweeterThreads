@@ -294,7 +294,7 @@ Functions are objects.
 
 <<<FinalThread>>>>>
 That's a wrap! If you enjoyed this thread: 
-1. Follow me @Aftabhuss if you are interested to see more threads on JavaScript.
+1. Follow me @Aftabhuss to see more threads on JavaScript.
 2. RT the tweet below to share this thread with your audience
 
 {{{{Link to first thread}}}}

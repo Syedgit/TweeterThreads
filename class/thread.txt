@@ -1,0 +1,56 @@
+<<<<MAIN>>>>
+
+Classes are one of the features introduced in the ES6 version of JavaScript.
+
+A class is a blueprint for the object. You can create an object from the class.
+
+You can think of the class as a sketch (prototype) of a house. It contains all the details about the floors, doors, windows, etc. Based on these descriptions, you build the house. House is the object.
+
+Since many houses can be made from the same description, we can create many objects from a class.
+
+<<<<ONE>>>>>
+The constructor function is defined as:
+
+<<<<<<TWO>>>>>>
+Now you can create an object. For example,
+
+<<<<<THREE>>>>>
+Javascript Class Methods
+
+<<<<<<FOUR>>>>>
+Getters and Setters
+JavaScript classes may include getters and setters. You use the get keyword for getter methods and set for setter methods.
+
+<<<<<<FIVE>>>>>
+Hoisting
+A class should be defined before using it. Unlike functions and other JavaScript declarations, the class is not hoisted.
+
+<<<<<SIX>>>>>>
+'use strict'
+Classes always follow 'use-strict'. All the code inside the class is automatically in strict mode.
+
+<<<<<<SEVEN>>>>
+Class Inheritance
+Inheritance enables you to define a class that takes all the functionality from a parent class and allows you to add more.
+
+Using class inheritance, a class can inherit all the methods and properties of another class.
+
+Inheritance is a useful feature that allows code reusability.
+
+<<<<<<EIGHT>>>>>>>
+JavaScript super() keyword
+
+<<<<<<NINE>>>>>>
+Overriding Method or Property
+If a child class has the same method or property name as that of the parent class, it will use the method and property of the child class
+
+<<<<<<TEN>>>>>>
+ Uses of Inheritnace 
+1. Since a child class can inherit all the functionalities of the parent's class, this allows code reusability.
+2. Once a functionality is developed, you can simply inherit it. No need to reinvent the wheel. This allows for cleaner code and easier to maintain.
+3. Since you can also add your own functionalities in the child class, you can inherit only the useful functionalities and define other required features.
+
+<<<FinalThread>>>>>
+That's a wrap! If you enjoyed this thread: 
+1. Follow me @Aftabhuss to see more threads on JavaScript.
+2. RT the tweet below to share this thread with your audience
