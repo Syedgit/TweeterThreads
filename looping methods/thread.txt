@@ -1,0 +1,54 @@
+<<<<MAIN>>>>>>
+JavaScript has several looping structures, including:
+
+for loop: used to execute a block of code a specific number of times
+while loop: used to execute a block of code repeatedly as long as a certain condition is true
+do-while loop: similar to a while loop, but the block of code will always be executed at least once
+for-in loop: used to loop through the properties of an object
+for-of loop: used to loop over the values in an iterable object, such as an array.
+
+<<<<<ONE>>>
+
+The For Loop
+The for statement creates a loop with 3 optional expressions:
+
+<<<<<TWO>>>>>
+A while loop
+1. A while loop evaluates the condition inside the parenthesis ().
+2. If the condition evaluates to true, the code inside the while loop is executed.
+3. The condition is evaluated again.
+4. This process continues until the condition is false.
+
+<<<<<THREE>>>>>
+Do while loop
+1.The body of the loop is executed at first. Then the condition is evaluated.
+2.If the condition evaluates to true, the body of the loop inside the do statement is executed again.
+3.The condition is evaluated once again.
+4.If the condition evaluates to true, the body of the loop inside the do statement is executed again.
+
+<<<<<FOUR>>>>>
+For of loop
+The for of loop can be used to iterate over an array.
+The for...of loop is used to iterate through the values of an iterable.	
+
+<<<<<FIVE>>>>
+
+For in loop 
+The for...in loop iterates over the properties of an object
+The for...in loop can iterate over arrays and array-like objects but it is not recommended use for of loop instead.
+The for...in loop returns all properties and inherited properties for an array or array-like object, which can lead to unexpected behavior.
+
+
+<<<<<<SIX>>>>>>
+forEach loop
+
+The forEach() method calls a function and iterates over the elements of an array. The forEach() method can also be used on Maps and Sets.
+
+<<<later>>>
+
+Comparison
+for...of	for...in
+The for...of loop is used to iterate through the values of an iterable.	
+The for...in loop is used to iterate through the keys of an object.
+The for...of loop cannot be used to iterate over an object.	
+You can use for...in to iterate over an iterable such arrays and strings but you should avoid using for...in for iterables.
