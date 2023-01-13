@@ -1,0 +1,54 @@
+<<<<<MAIN>>>>>
+By definition, a promise is an object that encapsulates the result of an asynchronous operation.
+
+A promise object has a state that can be one of the following:
+
+Pending
+Fulfilled with a value
+Rejected for a reason
+
+In the beginning, the state of a promise is pending, indicating that the asynchronous operation is in progress. Depending on the result of the asynchronous operation, the state changes to either fulfilled or rejected.
+
+The fulfilled state indicates that the asynchronous operation was completed successfully:
+
+<<<<<ONE>>>>>
+
+Creating a promise
+To create a promise object, you use the Promise() constructor:
+
+In turn, the executor accepts two callback functions with the name resolve and reject.
+
+Note that the callback functions passed into the executor are resolve and reject by convention only.
+
+If the asynchronous operation completes successfully, the executor will call the resolve() function to change the state of the promise from pending to fulfilled with a value.
+
+In case of an error, the executor will call the reject() function to change the state of the promise from pending to rejected with the error reason.
+
+<<<<<<Two>>>>>>>
+
+Consuming a Promise: then, catch, finally
+1) The then() method
+To get the value of a promise when it’s fulfilled, you call the then() method of the promise object. 
+The following shows the syntax of the then() method:
+promise.then(onFulfilled,onRejected);
+
+The then() method accepts two callback functions: onFulfilled and onRejected.
+
+The then() method calls the onFulfilled() with a value, if the promise is fulfilled or the onRejected() with an error if the promise is rejected.
+
+Note that both onFulfilled and onRejected arguments are optional.
+
+The following example shows how to use then() method of the Promise object returned by the getUsers() function:
+
+<<<<<THREE>>>>>
+
+2) The catch() method
+If you want to get the error only when the state of the promise is rejected, you can use the catch() method of the Promise object:
+
+<<<<<<FOUR>>>>>>
+
+3) The finally() method
+Sometimes, you want to execute the same piece of code whether the promise is fulfilled or rejected. For example:
+
+<<<<<<TAKEAWAY>>>>>
+
