@@ -11,6 +11,29 @@ In the beginning, the state of a promise is pending, indicating that the asynchr
 
 The fulfilled state indicates that the asynchronous operation was completed successfully:
 
+<<<<Promise_Resolve>>>>>
+Promise.Resolve()
+The Promise.resolve() static method "resolves" a given value to a Promise. 
+If the value is a promise, that promise is returned; if the value is a thenable, 
+Promise.resolve() will call the then() method with two callbacks it prepared; 
+otherwise the returned promise will be fulfilled with the value.
+
+<<<<<Promise_Reject>>>>>>
+Promise.Reject()
+The Promise.reject() static method returns a Promise object that is rejected with a given reason.
+
+<<<<<Promise.then>>>>
+Promise.then()
+
+The then() method of a Promise object takes up to two arguments: callback functions for the fulfilled and rejected cases of the Promise.
+ It immediately returns an equivalent Promise object, allowing you to chain calls to other promise methods.
+
+<<<<Promise.catch>>>>>
+Promise.Catch()
+The catch() method of a Promise object schedules a function to be called when the promise is rejected. 
+It immediately returns an equivalent Promise object, allowing you to chain calls to other promise methods. 
+
+
 <<<<<ONE>>>>>
 
 Creating a promise
@@ -49,6 +72,15 @@ If you want to get the error only when the state of the promise is rejected, you
 
 3) The finally() method
 Sometimes, you want to execute the same piece of code whether the promise is fulfilled or rejected. For example:
+
+
+<<<<<<FIVE>>>>>
+Promise.all()
+
+The Promise.all() static method takes an iterable of promises as input and returns a single Promise. 
+This returned promise fulfills when all of the input's promises fulfilled.
+Promise.all() will reject immediately upon any of the input promises rejecting.
+It is typically used when there are multiple related asynchronous tasks that the overall code relies on to work successfully 
 
 <<<<<<TAKEAWAY>>>>>
 
