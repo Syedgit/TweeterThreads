@@ -1,16 +1,18 @@
 <<<<MAIN>>>>>>
 JavaScript has several looping structures, including:
+--> For loop
+--> while loop
+--> Do while loop
+--> for of loop
+--> for in loop
+--> for each loop 
 
-for loop: used to execute a block of code a specific number of times
-while loop: used to execute a block of code repeatedly as long as a certain condition is true
-do-while loop: similar to a while loop, but the block of code will always be executed at least once
-for-in loop: used to loop through the properties of an object
-for-of loop: used to loop over the values in an iterable object, such as an array.
+Thread below to understand each of these loops 
 
 <<<<<ONE>>>
 
 The For Loop
-The for statement creates a loop with 3 optional expressions:
+for loop: used to execute a block of code a specific number of times
 
 <<<<<TWO>>>>>
 A while loop
@@ -57,3 +59,8 @@ Exercise Give yourself a challenge
 
 Write a fucntion using for loop that will check if two strings are palindromes. A palindrome is a word that spells the same forward and backward.
 Examples: racecar or javascript 
+
+<<<FinalThread>>>>>
+That's a wrap! If you enjoyed this thread: 
+1. Follow me @Aftabhuss to see more threads on JavaScript.
+2. RT the tweet below to share this thread with your audience
