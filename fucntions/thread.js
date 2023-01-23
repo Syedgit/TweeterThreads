@@ -86,3 +86,18 @@ function myFunction() {
   myObject.myMethod([1, 2, 3]); 
   //this value inside the arrow function callback() equals to this of the outer function myMethod().
   
+  function myFunction() {
+    console.log(this);
+  }
+  // Simple invocation
+  myFunction(); // logs global object (window)
+  
+  //During a method invocation the value of this is the object owning the method:
+  
+  const myObject = {
+    method() {
+      console.log(this);
+    }
+  };
+  // Method invocation
+  myObject.method(); // logs myObject
