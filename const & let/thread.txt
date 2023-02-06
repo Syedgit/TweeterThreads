@@ -1,0 +1,34 @@
+<<<MAIN>>
+
+Using const and let is considered best practice in modern JavaScript development because of their block-level scoping and ability to prevent accidental reassignment of values. 
+Additionally, const provides an easy way to declare constant values that cannot be changed, making it easier to write reliable and maintainable code.
+<<ONE>>>
+Introduction to const and let: const and let are two new ways to declare variables in JavaScript, introduced in ECMAScript 6 (ES6). 
+const is used to declare a constant value that cannot be reassigned, while let is used to declare a variable that can be reassigned. Here's an example:
+
+<<<TWO>>>
+Block level Scoping
+Block-level scoping: One of the key benefits of using const and let is that they have block-level scoping, 
+which means they are only accessible within the block in which they are declared. For example:
+
+<<<THREE>>>
+Function-level scoping: When using var, variables are declared at the function-level, 
+which means they are accessible within the entire function. However, with const and let, variables declared within a function are still only accessible within the block in which they are declared.
+ Here's an example
+
+ <<<FOUR>>>
+ Temporal Dead Zone
+
+ Temporal Dead Zone (TDZ): When using let and const, 
+ it's important to note the concept of the Temporal Dead Zone (TDZ). The TDZ is the period of time before a variable declared with let or const is declared in the current scope, during which the variable is considered "undeclared". 
+ Here's an example
+
+ <<<FIVE>>>
+ Hoisitng 
+ Hoisting refers to the behavior where variables and function declarations are moved to the top of their respective scopes during the creation phase of the execution context.
+
+However, const and let work differently than var with respect to hoisting. 
+When using var, the variable declaration is hoisted to the top of the function or global scope, but its value is not assigned until the code runs.
+
+ With const and let, the variable declaration and assignment are not hoisted to the top of the function or global scope. 
+ Instead, they are only available within the block in which they are declared.

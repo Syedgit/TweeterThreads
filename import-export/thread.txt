@@ -1,0 +1,26 @@
+<<MAIN>>>
+import and export provide a powerful way to organize and reuse code in your JavaScript projects. 
+You can create multiple modules that export values or functions, 
+and then import them as needed into other modules, making it easier to maintain and scale your code
+.
+Introduction to import and export: import and export are features of ECMAScript 6 (ES6) and allow you to include and reuse code from other JavaScript files. 
+An export statement is used to export values or functions from a module, while an import statement is used to import values or functions into a module.
+
+
+<<ONE>>>
+Exporting
+
+Exporting values: To export values or functions from a module, you use the export keyword followed by the value or function you want to export. 
+You can also use the export keyword directly before the declaration of a value or function to export it. Here's an example:
+
+<<<TWO>>>>
+Importing 
+
+Importing values: To import values or functions from a module, you use the import keyword followed by 
+the name of the value or function you want to import, along with the module name and location. Here's an example:
+
+<<<THREE>>>
+Importing all the values 
+
+Importing all values: To import all values or functions from a module, you can use the import * as syntax, 
+which allows you to access all exported values or functions through a single object. Here's an example:

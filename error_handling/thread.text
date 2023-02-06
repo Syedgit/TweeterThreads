@@ -1,0 +1,44 @@
+<<MAIN>>
+JavaScript error handling is a mechanism that allows you to detect and handle runtime errors in your code. 
+Error handling in promises is important to ensure that your code runs as expected and provides a good user experience. 
+
+By using the above steps, you can handle errors in a clean and organized way
+Here's a step by step method of error handling in JavaScript:
+
+<<<ONE>>
+Use the try-catch statement: The try-catch statement allows you to wrap a block of code that you want to monitor for errors. 
+The syntax for the try-catch statement is as follows:
+
+<<<TWO>>>
+Throw an error: If an error occurs within the try block, you can throw an error using the throw statement. 
+This allows you to provide a custom error message and pass the error to the catch block for further handling. Here's an example:
+
+<<<THREE>>>>
+Handle the error: In the catch block, you can access the error message and stack trace using the message and stack properties of the error object. 
+You can then use this information to handle the error in a meaningful way, such as logging it to the console, displaying a user-friendly message, or sending an error report to your server.
+
+
+<<<FOUR>>>
+Use finally block (optional): If you need to run some code regardless of whether an error occurred or not, you can use the finally block. 
+The code in the finally block will always run, even if an error is thrown or caught.
+
+<<<FIVE>>>
+Return error in promise.
+
+Return a rejected promise: If an error occurs within a promise, you can return a rejected promise using the reject method of the Promise object.
+ This allows you to pass the error to the catch block for further handling. Here's an example:
+
+ <<<SIX>>>
+ Handle the error using catch: In the catch block, you can access the error message and handle it in a meaningful way. 
+ The catch block is attached to the promise using the catch method. Here's an example:
+
+ <<<SEVEN>>>
+ USe try and catch in promise
+ Use try-catch inside then: If you need to catch errors that occur within a then block, you can use a try-catch statement inside the then block. 
+ The catch block will catch any errors that occur within the then block and allow you to handle them in a meaningful way. Here's an example:
+
+ <<<EIGHT>>>
+ Chain multiple catch blocks using promises
+
+ Chain multiple catch blocks: If you need to handle errors in multiple parts of your promise chain, 
+ you can chain multiple catch blocks to handle each error individually. Here's an example:
