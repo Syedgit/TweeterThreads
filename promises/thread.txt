@@ -82,5 +82,8 @@ This returned promise fulfills when all of the input's promises fulfilled.
 Promise.all() will reject immediately upon any of the input promises rejecting.
 It is typically used when there are multiple related asynchronous tasks that the overall code relies on to work successfully 
 
-<<<<<<TAKEAWAY>>>>>
+Final 
 
+That's a wrap! If you enjoyed this thread: 
+1. Follow me @Aftabhuss to see more threads on JavaScript.
+2. RT the tweet below to share this thread with your audience.

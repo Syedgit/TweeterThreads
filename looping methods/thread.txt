@@ -46,7 +46,7 @@ forEach loop
 
 The forEach() method calls a function and iterates over the elements of an array. The forEach() method can also be used on Maps and Sets.
 
-<<<later>>>
+<<<Seven>>>
 
 Comparison
 for...of	for...in

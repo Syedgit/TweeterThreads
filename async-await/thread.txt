@@ -1,0 +1,41 @@
+<<<MAIN>>>>
+The async function declaration declares an async function where the await keyword is permitted within the function body.
+The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+Async functions always return a promise. 
+If the return value of an async function is not explicitly a promise, it will be implicitly wrapped in a promise.
+<<<<ONE>>>>
+The async keyword
+The first thing we need to do is label the containing function as being asynchronous. 
+We can do this by using the async keyword, which we place in front of the function keyword:
+
+<<<<TWO>>>>
+The next thing to do is to put the await keyword in front of any asynchronous operations within our function. 
+This will force the JavaScript interpreter to “pause” execution and wait for the result. 
+We can assign the results of these operations to variables:
+
+<<<<THREE>>>
+Async function expression
+A function expression is when we create a function and assign it to a variable. 
+The function is anonymous, which means it doesn’t have a name.
+Arrow functions were introduced to the language in ES6. 
+They’re a compact alternative to function expressions and are always anonymous. Their basic syntax is as follows:
+
+<<<FOUR>>>>>
+
+The async function allows the asynchronous method to be executed in a seemingly synchronous way. Though the operation is asynchronous, it seems that the operation is executed in synchronous manner.
+
+This can be useful if there are multiple promises in the program.
+
+<<<<<FIVE>>>>
+Error Handling in Async Functions
+There are a couple of ways to handle errors when dealing with async functions. 
+Probably the most common is to use a try...catch block, which we can wrap around asynchronous operations and catch any errors which occur.
+
+<<<<SIX>>>
+Making Use of catch() on the function call
+Every function that returns a promise can make use of a promise’s catch method to handle any promise rejections which might occur.
+
+<<<EGIHT>>>>
+Running Asynchronous Commands in Parallel
+When we use the await keyword to wait for an asynchronous operation to complete, the JavaScript interpreter will accordingly pause execution. 
+While this is handy, this might not always be what we want. Consider the following code:

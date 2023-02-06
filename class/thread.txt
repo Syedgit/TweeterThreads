@@ -12,10 +12,18 @@ Since many houses can be made from the same description, we can create many obje
 The constructor function is defined as:
 
 <<<<<<TWO>>>>>>
-Now you can create an object. For example,
+Constructor
+The constructor method is a special method for creating and initializing an object created with a class. 
+There can only be one special method with the name "constructor" in a class — a SyntaxError is thrown if the class contains more than one occurrence of a constructor method.
+
+A constructor can use the super keyword to call the constructor of the super class.
+
+You can create instance properties inside the constructor:
 
 <<<<<THREE>>>>>
 Javascript Class Methods
+Methods are defined on the prototype of each class instance and are shared by all instances. 
+Methods can be plain functions, async functions, generator functions, or async generator functions.
 
 <<<<<<FOUR>>>>>
 Getters and Setters

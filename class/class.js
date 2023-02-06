@@ -7,24 +7,13 @@ function Person () {
 
 // create an object
 const person = new Person();
+
 // Instead of using the function keyword, you use the class keyword for creating JS classes. For example,
-
-// creating a class
 class Person {
   constructor(name) {
     this.name = name;
   }
 }
-
-///<<<<<<TWO>>>>>>/// 
-
-// creating a class
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-}
-
 // creating an object
 const person10 = new Person('John');
 const person2 = new Person('Jack');
@@ -204,3 +193,11 @@ p.greet();
 // occupation: Student
 
 // Here, the occupation property and the greet() method are present in parent Person class and the child Student class
+
+
+class Rectangle {
+    constructor(height, width) {
+      this.height = height;
+      this.width = width;
+    }
+  }

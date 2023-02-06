@@ -1,0 +1,53 @@
+<<<MAIN>>>
+The conditional operator – also known as the ternary operator – is an alternative form of the 
+if/else statement that helps you to write conditional code blocks in a more concise way.
+Ternary Operator Used Instead of if...else
+In JavaScript, a ternary operator can be used to replace certain types of if..else statements. For example,
+
+<<<If>>
+In JavaScript, there are three forms of the if...else statement.
+
+if statement
+if...else statement
+if...else if...else statement
+<<<<<IF-ELSE>>>>>
+JavaScript if...else statement
+An if statement can have an optional else clause. The syntax of the if...else statement is:
+
+The if..else statement evaluates the condition inside the parenthesis.
+
+If the condition is evaluated to true,
+
+the code inside the body of if is executed
+the code inside the body of else is skipped from execution
+
+If the condition is evaluated to false,
+
+the code inside the body of else is executed
+the code inside the body of if is skipped from execution
+
+<<<<IF-ELSE-IF>>>>
+JavaScript if...else if statement
+The if...else statement is used to execute a block of code among two alternatives. However, if you need to make a choice between more than two alternatives, if...else if...else can be used.
+
+The syntax of the if...else if...else statement is:
+
+<<<NESTED-IF-ELSE-OF>>>
+Nested if...else Statement
+You can also use an if...else statement inside of an if...else statement. This is known as nested if...else statement.
+
+<<<ONE>>
+if-else conditions 
+
+<<<TWO>>>
+ternary operator 
+conditional ? expression_when_true : expression_when_false;
+<<<<THree>>>
+Multiple ternary operator
+You can write multiple ternary operators to replace the code above like this
+Although ternary operators are used inline, multiple conditions can be used as part of a ternary operator’s expressions.
+ You can nest or chain more than one condition to perform condition checks similar to if...else if...else statements.
+
+<<<<FOUR>>>.
+You can also nest one ternary operator as an expression inside another ternary operator. For example,
+

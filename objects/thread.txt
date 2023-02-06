@@ -1,6 +1,12 @@
 thread 
+
+<<<MAIN>>>>
+
+
+
 <<<<1>>>
-To master Javascript you have to understand objects as everything in JS is object.
+
+To master Javascript its important to understand objects as everything in JS is object.
 Below topics will help you understand basics of Objects that is minimium needed on first job.
 
 1 Introduction to objects 
