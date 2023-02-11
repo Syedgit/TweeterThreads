@@ -170,3 +170,16 @@ Destructuring
 Template literals
 Ternary Operators
 ES Modules and Import / Export Syntax
+
+<<<<Learning single thread>>>
+
+Become a Full-stack dev for FREE 👇👇
+
+HTML ➡️ learn-html .org
+CSS ➡️ web .dev/learn/css
+JavaScript ➡️ javascript .info
+Git ➡️ atlassian .com/git
+React ➡️ beta .reactjs .org
+Node ➡️ nodejs .dev/en/learn
+Postgres ➡️ postgresqltutorial .com
+API ➡️ rapidapi .com/learn
