@@ -1,0 +1,39 @@
+<<ONE>>
+Type Annotations: 
+One of the most prominent features of TypeScript is the ability to add static type annotations to variables, function parameters, and function return values. 
+This helps catch errors early on during development, making code more robust and maintainable. 
+JavaScript is dynamically typed, which means the type of a variable can change at runtime.
+
+<<TWO>>
+OOP Features: 
+TypeScript supports object-oriented programming (OOP) concepts like classes, interfaces, and inheritance, whereas JavaScript is a prototype-based language.
+
+<<THREE>>>
+Compiler: 
+TypeScript requires a separate compiler to convert TypeScript code to JavaScript. 
+The TypeScript compiler checks for syntax and type errors and generates JavaScript code. 
+JavaScript code can be executed directly by a browser or a runtime environment like Node.js.
+
+<<<FOUR>>>
+Tooling and IDEs:
+ Since TypeScript is a statically typed language, it provides better tooling support and code intelligence in Integrated Development Environments (IDEs) like Visual Studio Code. 
+ In contrast, JavaScript relies more on runtime debugging and dynamic tooling.
+
+<<<FIVE>>>
+Compatibility: 
+TypeScript is a superset of JavaScript, which means that any valid JavaScript code is also valid TypeScript code.
+ TypeScript code can be compiled to various versions of JavaScript, including ES5, ES6, and ES7.
+
+<<<SIX>>>
+Code Readability: 
+TypeScript’s type annotations make code more self-documenting and easier to read. 
+This is particularly helpful when working on large-scale projects with multiple contributors.
+
+<<SEVEN>>>
+Community and Adoption: 
+While JavaScript has been around for more than two decades and is widely adopted, TypeScript is a relatively new language that has gained popularity in recent years.
+TypeScript is being used in many popular projects, including Angular, React, and Vue.
+
+<<summary>>>
+These are some of the key differences between TypeScript and JavaScript. 
+While they share many similarities, TypeScript provides additional features that make it a more robust and maintainable language for large-scale projects.

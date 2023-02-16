@@ -20,7 +20,7 @@ if (true) {
  console.log(message); // ReferenceError: message is not defined
 
  /*THREE*/
- // FUnction level scoping 
+ // Function level scoping 
 
  function greet() {
     if (true) {
