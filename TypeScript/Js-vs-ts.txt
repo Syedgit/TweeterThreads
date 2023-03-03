@@ -1,3 +1,6 @@
+<<MAIN>>
+Some of the key differences between JS vs TS 
+
 <<ONE>>
 Type Annotations: 
 One of the most prominent features of TypeScript is the ability to add static type annotations to variables, function parameters, and function return values. 

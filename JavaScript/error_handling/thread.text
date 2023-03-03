@@ -26,7 +26,7 @@ The code in the finally block will always run, even if an error is thrown or cau
 Return error in promise.
 
 Return a rejected promise: If an error occurs within a promise, you can return a rejected promise using the reject method of the Promise object.
- This allows you to pass the error to the catch block for further handling. Here's an example:
+This allows you to pass the error to the catch block for further handling. Here's an example:
 
  <<<SIX>>>
  Handle the error using catch: In the catch block, you can access the error message and handle it in a meaningful way. 

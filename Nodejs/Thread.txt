@@ -1,0 +1,144 @@
+What is Node.js?
+Node.js is an open-source server-side platform that allows you to build network applications using JavaScript. It is built on the V8 JavaScript engine used by Google Chrome and provides an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+
+Installing Node.js
+The first step to getting started with Node.js is to install it on your computer. You can download the installer from the Node.js website and follow the installation process for your operating system.
+
+Node.js modules
+Node.js has a built-in module system that allows you to easily include external libraries or modules in your application. You can include a module using the require() function, which will load the module and make it available in your code.
+
+Asynchronous programming
+One of the key features of Node.js is its ability to perform asynchronous operations. This means that multiple requests can be processed simultaneously without blocking the execution of the program. This is achieved using callbacks or promises to handle asynchronous operations.
+
+Events and event-driven programming
+Node.js is built on an event-driven architecture, which means that it relies on events to trigger certain actions. You can create custom events using the built-in EventEmitter module and attach event listeners to respond to these events.
+
+Creating a web server
+Node.js can be used to create web servers that can handle HTTP requests and responses. You can use the built-in http module to create a server and listen for incoming requests.
+
+NPM (Node Package Manager)
+NPM is a package manager for Node.js that allows you to easily install and manage third-party libraries and modules. You can use NPM to install packages globally or locally, and it provides a powerful command-line interface for managing packages and dependencies.
+
+Express.js
+Express.js is a popular framework for building web applications on top of Node.js. It provides a set of powerful features for routing, middleware, and templating, making it easy to build robust and scalable web applications.
+
+MongoDB
+MongoDB is a popular NoSQL database that can be used with Node.js. It is designed to handle large volumes of unstructured data and provides a flexible schema that allows you to store data in JSON-like documents.
+
+Deploying a Node.js application
+Once you have built your Node.js application, you can deploy it to a production environment. There are many options for deploying Node.js applications, including cloud-based services like AWS, Heroku, or Google Cloud, or using a dedicated server.
+
+<<<<<<with Coding>>>>>
+Installing Node.js
+You can download and install the latest version of Node.js from the official website. Once installed, you can check the version of Node.js by running the following command in the terminal:
+
+
+Node.js modules
+Node.js has a built-in module system that allows you to include external libraries or modules in your application. You can include a module using the require() function, which will load the module and make it available in your code.
+
+For example, to use the built-in http module to create a web server, you can include it in your code like this:
+const http = require('http');
+<<NEW>>
+THe Nodejs runtime
+The source code written in source file is simply javascript. The Node.js interpreter will be used to interpret and execute your javascript code.
+
+Node.js distribution comes as a binary installable for SunOS , Linux, Mac OS X, and Windows operating systems with the 32-bit (386) and 64-bit (amd64) x86 processor architectures.
+
+Following section guides you on how to install Node.js binary distribution on various OS
+
+
+<<MAIN>>
+Installing Node.js
+You can download and install the latest version of Node.js from the official website. 
+Once installed, you can check the version of Node.js by running the following command in the terminal:
+  node -v
+
+<<<<FOUR>>>
+Node.js - REPL Terminal
+Node.js or Node comes bundled with a REPL environment. It performs the following tasks
+Read − Reads user's input, parses the input into JavaScript data-structure, and stores in memory.
+Eval − Takes and evaluates the data structure.
+Print − Prints the result.
+Loop − Loops the above command until the user presses ctrl-c twice.
+REPL can be started by simply running node on shell/console without any arguments
+
+<<<FIVE>>>
+NPM (Node Package Manager)
+NPM is a package manager for Node.js that allows you to easily install and manage third-party libraries and modules.
+You can use NPM to install packages globally or locally, and it provides a powerful command-line interface for managing packages and dependencies.
+For example, to install the express module using NPM, you can run the following command in the terminal:
+
+<<<<<SIX>>>
+Event-Driven Programming
+Node.js uses events heavily and it is also one of the reasons why Node.js is pretty fast compared to other similar technologies.
+As soon as Node starts its server, it simply initiates its variables, declares functions and then simply waits for the event to occur.
+In an event-driven application, there is generally a main loop that listens for events, and then triggers a callback function when one of those events is detected.
+<<SEVEN>>
+STREAMS
+Streams are objects that let you read data from a source or write data to a destination in continuous fashion. 
+In Node.js, there are four types of streams −
+Readable − Stream which is used for read operation.
+Writable − Stream which is used for write operation.
+Duplex − Stream which can be used for both read and write operation.
+Transform − A type of duplex stream where the output is computed based on input.
+<<EIGHT>>
+Synchronous vs Asynchronous
+Every method in the fs module has synchronous as well as asynchronous forms. 
+Asynchronous methods take the last parameter as the completion function callback and the first parameter of the callback function as error. 
+It is better to use an asynchronous method instead of a synchronous method, as the former never blocks a program during its execution.
+Node.js is designed to handle asynchronous operations efficiently. 
+This means that multiple requests can be processed simultaneously without blocking the execution of the program.
+To handle asynchronous operations, Node.js provides a callback-based mechanism. 
+<<<NINE>>>
+Creating a web server
+Node.js can be used to create web servers that can handle HTTP requests and responses. 
+You can use the built-in http module to create a server and listen for incoming requests.
+Import required modules − We use the require directive to load Node.js modules.
+Create server − A server which will listen to client's requests similar to Apache HTTP Server.
+Read request and return response − The server created in an earlier step will read the HTTP request made by the client which can be a browser or a console and return the response.
+const http = require('http');
+const server = http.createServer(function (req, res) {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello, World!');
+});
+server.listen(3000);
+console.log('Server listening on port 3000');
+
+<<<TEN>>>
+Express.js
+Express.js is a popular framework for building web applications on top of Node.js.
+It provides a set of powerful features for routing, middleware, and templating, making it easy to build robust and scalable web applications.
+Allows to set up middlewares to respond to HTTP Requests.
+Defines a routing table which is used to perform different actions based on HTTP Method and URL.
+Allows to dynamically render HTML Pages based on passing arguments to templates.
+
+
+<<<SIX>>
+Global vs Local Installation
+Local
+By default, NPM installs any dependency in the local mode. 
+Local mode refers to the package installation in node_modules directory lying in the folder where Node application is present.
+Locally deployed packages are accessible via require() method.
+Global
+Globally installed packages/dependencies are stored in system directory. 
+Dependencies can be used in CLI (Command Line Interface) function of any node.js but cannot be imported using require() in Node application directly. 
+The syntax to insrall global dependecies.
+
+
+<<ELEVEN>>>
+What is REST architecture?
+REST stands for REpresentational State Transfer. REST is web standards based architecture and uses HTTP Protocol. 
+It revolves around resource where every component is a resource and a resource is accessed by a common interface using HTTP standard methods. 
+A REST Server simply provides access to resources and REST client accesses and modifies the resources using HTTP protocol. 
+Following four HTTP methods are commonly used in REST based architecture.
+GET − This is used to provide a read only access to a resource.
+PUT − This is used to create a new resource.
+DELETE − This is used to remove a resource.
+POST − This is used to update a existing resource or create a new resource
+<<>>>
+package.json
+package.json is present in the root directory of any Node application/module and is used to define the properties of a package. 
+Let's open package.json of express package present in node_modules/express/
+
+npm install express -g
+

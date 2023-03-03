@@ -1,0 +1,74 @@
+
+ <<ONE>>
+ Validate and Sanitize Input:
+ Always validate and sanitiz user input on both the client and server sides to prevent input that might cause security issues, such as cross-site scripting (XSS) attacks or SQL injection attacks.
+ Input validation ensures that data coming into your application is in the expected format and free of malicious code or unexpected characters.
+
+<<TWO>>
+Secure your Network
+Always use HTTPS for transmitting data between the server and the client. 
+HTTPS ensures that data is encrypted during transmission and helps to prevent man-in-the-middle attacks.
+Implement access controls that ensure that users only have access to the data and functionality they need to do their jobs. 
+This limits the ability of attackers to access sensitive data and make unauthorized changes to your application.
+Ensure that your network is properly secured, and limit the number of people who have access to your application. 
+Use firewalls, intrusion detection and prevention systems, and other security measures to help prevent attacks.
+
+
+<<THREE>>>
+Keep application up to date:
+
+Always keep the software and frameworks used in the web application up to date. 
+Stay up-to-date with security patches for your operating system, web server, and other software components used in your application. 
+This helps to ensure that any known vulnerabilities are patched and secured.
+There are several tools to scan your application to find vulnerabilities in your code e.g snyk and nexus scans.
+Always use libraries and tools with good security track records.
+
+
+<FOUR>>>
+Use strong passwords and two-factor authentication: 
+Always use strong passwords for authentication and use two-factor authentication to add an extra layer of security to the login process.
+Use a security policy to ensure that everyone who has access to your application is aware of security best practices and your organization's security policies.
+
+<<<FIVE>>>
+Minimize the use of global variables and coding practices:
+Avoid using global variables because they can be accessed and modified from anywhere in the application, making it easier for an attacker to exploit the application.
+Content Security Policy (CSP) is a mechanism that allows you to specify the sources of content that are trusted by the web application. 
+This helps to prevent cross-site scripting (XSS) attacks by limiting the sources of content that are allowed to be executed.
+Use secure coding practices to ensure that your application is less vulnerable to outside threats. 
+Secure coding practices include the use of input validation, code signing, and secure coding standards.
+
+
+<<<SIX>>>
+Keep sensitive data Encrypted and Secure.
+Always keep sensitive data, such as user passwords and financial information, encrypted and stored securely.
+Use encryption to protect sensitive data as it travels over the internet.
+Encryption helps to ensure that data is only accessible by authorized parties.
+Always test the application for security vulnerabilities regularly, both during development and after deployment. 
+This can include automated testing, manual testing, and penetration testing.
+Monitor your application for unusual behavior or suspicious activity. 
+This can help you detect and respond to attacks quickly before they cause too much damage.
+
+
+
+
+<<FINAL>>>
+That's a wrap! If you enjoyed this thread: 
+1. Follow me @Aftabhuss if you are interested to see more threads on JavaScript.
+2. RT the tweet below to share this thread with your audience
+
+
+Input validation: Always validate input from users and third-party sources. Input validation ensures that data coming into your application is in the expected format and free of malicious code or unexpected characters.
+
+Access control: Implement access controls that ensure that users only have access to the data and functionality they need to do their jobs. This limits the ability of attackers to access sensitive data and make unauthorized changes to your application.
+
+Secure your network: Ensure that your network is properly secured, and limit the number of people who have access to your application. Use firewalls, intrusion detection and prevention systems, and other security measures to help prevent attacks.
+
+Use encryption: Use encryption to protect sensitive data as it travels over the internet. Encryption helps to ensure that data is only accessible by authorized parties.
+
+Use secure coding practices: Use secure coding practices to ensure that your application is less vulnerable to outside threats. Secure coding practices include the use of input validation, code signing, and secure coding standards.
+
+Monitor your application: Monitor your application for unusual behavior or suspicious activity. This can help you detect and respond to attacks quickly before they cause too much damage.
+
+Stay up-to-date with security patches: Stay up-to-date with security patches for your operating system, web server, and other software components used in your application. This helps to ensure that any known vulnerabilities are patched and secured.
+
+Use a security policy: Use a security policy to ensure that everyone who has access to your application is aware of security best practices and your organization's security policies.

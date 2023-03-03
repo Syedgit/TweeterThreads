@@ -1,0 +1,23 @@
+<<ONE>>
+Array.flat(): This method allows you to flatten nested arrays into a single-level array. It takes an optional argument to specify the depth of the flattening. Here's an example:
+javascript
+
+<<TWO>>
+String.replaceAll(): This method replaces all occurrences of a specified string with another string. It's similar to the String.replace() method, but replaces all occurrences instead of just the first one. Here's an example:
+rust
+Copy code
+
+<<<THREE>>>
+Promise.allSettled(): 
+This method returns a promise that resolves after all of the input promises have settled, i.e., either fulfilled or rejected. The result is an array of objects that describes the outcome of each promise. Here's an example:
+javascript
+
+<<FOUR>>>
+  Array.at(): This method returns the element at the specified index in an array. It accepts negative indices, which count from the end of the array. Here's an example:
+css
+
+<<<FIVE>>>
+Object.fromEntries(): This method transforms a list of key-value pairs into an object. It's the inverse of the Object.entries() method. Here's an example:
+css
+
+
